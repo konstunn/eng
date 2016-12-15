@@ -1,8 +1,8 @@
 
-main.pdf: main.ltx main.aux
+main.pdf: main.tex main.aux
 	pdflatex $< 
 
-main.aux: main.ltx
+main.aux: main.tex
 	pdflatex $<
 
 view: main.pdf
