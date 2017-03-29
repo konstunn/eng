@@ -1,0 +1,25 @@
+\frametitle{Table example}
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{library}\hlstd{(xtable)}
+\hlkwd{options}\hlstd{(}\hlkwc{xtable.floating}\hlstd{=F)}
+\hlkwd{options}\hlstd{(}\hlkwc{xtable.timestamp}\hlstd{=}\hlstr{""}\hlstd{)}
+\hlkwd{data}\hlstd{(tli)}
+\hlkwd{xtable}\hlstd{(tli[}\hlnum{1}\hlopt{:}\hlnum{5}\hlstd{,])}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.3.3 by xtable 1.8-2 package
+%
+\begin{tabular}{rrlllr}
+  \hline
+ & grade & sex & disadvg & ethnicty & tlimth \\
+  \hline
+1 &   6 & M & YES & HISPANIC &  43 \\
+  2 &   7 & M & NO & BLACK &  88 \\
+  3 &   5 & F & YES & HISPANIC &  34 \\
+  4 &   3 & M & YES & HISPANIC &  65 \\
+  5 &   8 & M & YES & WHITE &  75 \\
+   \hline
+\end{tabular}
+
+

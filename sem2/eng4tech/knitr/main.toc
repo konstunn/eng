@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ /\ \LaTeX }{2}{0}{1}
+\beamer@sectionintoc {2}{R}{3}{0}{2}
+\beamer@sectionintoc {3}{Random numbers generating example}{4}{0}{3}
+\beamer@sectionintoc {4}{Plotting example}{5}{0}{4}
+\beamer@sectionintoc {5}{Table example}{6}{0}{5}
+\beamer@sectionintoc {6}{\LaTeX \ <- knitR <- R}{7}{0}{6}
+\beamer@sectionintoc {7}{Contacts}{8}{0}{7}
+\beamer@sectionintoc {8}{References}{9}{0}{8}

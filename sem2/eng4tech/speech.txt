@@ -3,43 +3,45 @@ Alright. Good day! Thank you for coming. I'm gonna give a talk about the role
 of English language worldwide with an emphasis on why English is also or maybe
 even especially important for so called techmakers. I wonder if you know who
 techmakers are? (pause) - Techmakers are all kinds of engineers, scientists,
-technical guys who just make things around us work. They are like
+technical guys who just make things around us work. Like
 most of you in this audience, technical university students,
 researchers, engineers, teaching staff. 
 
-My name is ... . I am a first year master of science program student. You see
-the title and mentioned these two nice guys with guns. Do you know who these
-guys are? - Obviously, they are not techmakers, they are characters of action
-Quentin Tarantino's movie Pulp Fiction. You know, the title of my talk is a
-remade quotation from this movie. If you haven't watched it yet, go and watch
-it today.  I want you to watch it in English and today. (TODO: Make it clear!
-Tarantino.)
+My name is Konstantin Gorbunov. I am a first year master of science program
+student. You see the title 'English, Techmaker, Do You Speak It?' and mentioned
+these two nice guys with guns. Do you know who these guys are? - Well, obviously,
+they are not techmakers. 
+---
+They are characters of Quentin Tarantino's action movie Pulp Fiction. You know,
+the title of my talk is a remade quotation from this movie. If you haven't
+watched it yet, go ahead and watch it today, in English.
 
-English, right, English, techmakers, do you speak it?
 ---
 
 Okay, so what's the plan?
 
-Here you can see a short plan briefly describing the reasonal points why you'd
-better speak English.
+Here you can see a short plan briefly describing the reasonal points on why
+English is important.
 
-It's not only bare business for me to make you think so, but
+You know, it's not only bare business for me to make you think so, but
 I have a personal reason to think so by myself and persuade you to think so.
+To think that English is a must.
 
-The history also matters. Here I'll mention a historical reason why English is
-so wide spread.
+The history also matters. There I'll mention a historical reason why English is
+so widely spread.
 
-Next point we're gonna discuss is why we need English to help us
+And the next point we're gonna discuss is why we need English to help us
 carry out our research and development.
 
 And in conlusion I will try to give you even more motivation and provide some
-tips for learning English.
+tips for improving your English.
 ---
 
-You know
+So, let's get started.
 
-I got my bachelors degree in Instrumentation at the faculty of Automation
-and Computer Engineering, dealing a lot with hardware development and design.
+You know, I got my bachelors degree in Instrumentation at the faculty of
+Automation and Computer Engineering, dealing a lot with hardware development
+and design.
 
 Now I am working on my masters' degree at the faculty Applied Math and Computer
 Science dealing more with data and algorithms.
@@ -48,48 +50,58 @@ I'm telling you this not to show off, to say that I'm kind a super genius guy.
 No!
 
 The point is that it does not matter what you are dealing with: hardware,
-software, algorithms. Doesn't matter. The matter is that you will nevertheless
-need English and take much benefit from it if you learn it.
+software, maths, algorithms. Doesn't matter. The matter is that you will
+nevertheless need English and take much benefit from it if you learn it.
 
-And I can't remember a discipline that I didn't get benefit using my
+And I can't remember a discipline that I didn't get benefit from using my
 knowledge of English.
 
-That's my personal experience, personal reason of thinking that English is a
+That's my personal experience, personal reason why I think that English is a
 must.
 ---
-Going to some historical reason going back to the times of British Empire
-taking large world territory we've got what we've got. The situation is the
-following.
+The history also matters. 
 ---
-There are 1.5 billion people around the world speaking English. You can check
-it. approx. 4 billion as second language
+As it was said by Martin Luther King, Jr. We are not
+history makers, we are made by history.
+
+So to speak going to some historical reason going back to the times of British
+Empire taking large world territory we've got what we've got. The situation is
+the following.
+---
+There are 600 million people around the world speaking English. You can check
+it.
 
 --- 
 
-As you know English is the language of world diplomacy, sport, science,
+English has become the language of world diplomacy, sport, science,
 technology, education, the Internet, mass media and tourism and so forth.
-Certainly we are mostly interested in science, technology and education.
+Certainly we are mostly interested in science, technology and education. Cause
+we are techmakers.
 ---
 
-The most terrific point for me and I'm sure that it's also so for most of you,
-English is the language of software development. Have you ever seen a
-programming language used in production which keywords was from Japanese,
-Chinese, German? - I have not.
+That is why the most terrific point for me and I'm sure that it's also so for
+most of you, English is the language of software development. Now, I want you 
+answer the only one question. Have you ever
+seen a programming language used in production which keywords was from
+Japanese, Chinese or German? - I have not.
 ---
-I've decided to draw your attention to the site ... because ...
+So to continue. I've also decided to draw your attention to the site stack
+exchange . com. It's a great place of community-driven forums with topics from
+statistics to languages.  And even cooking. And even alsmost whatever you want.
+I suppose it might be interesting for you to visit it.  
+---
+Okay, let's go the next point. Speaking and understanding English speech and
+text is about general literacy and awareness. The more languages you know, the
+more aware and literal you are, the more points of view and opinions you can
+evaluate. The more information you can deal with. That's important.
 ---
 
-Speaking and understanding English speech and text is about general literacy
-and awareness.  Generally speaking, the more languages you know, the more aware
-and literal you are, the more points of view and opinions you can evaluate.
----
-
-We live in the Age of Infomation. They say that the one who owns information,
-that one rules the world. With development of the Internet the more
-information became accessible. But not all information is useful. Actually,
-that one who can extract knowledge from information that one rules the
-world. To extract knowledge one needs deep understanding of data.
-Assuming you are dealing with information in English - the better you know
+Cause now we live in the Age of Infomation. They say that the one who owns
+information, that one rules the world. With development of the Internet the
+more information became accessible. But not all information is useful, however.
+Actually, that one who can extract knowledge from information that one rules
+the world. And to extract knowledge one needs deep understanding of data he
+deals with. Assuming you are dealing with data in English - the better you know
 English, the more useful information you can extract.
 ---
 
@@ -97,8 +109,9 @@ In my conclusion I want to offer you some tips on improving your English.
 Some of them might look for you obvious, though. Watch movies, listen to music,
 read, speak and surf the web in English.
 
-Learn English, and these guys will not come for you.
+Learn English, and those guys will never come for you.
 
 Thank you for your attention. Now I want you to feel free to ask any questions,
-give suggestions. You can e-mail me or find me at vk.com. The information
-provided here is more than enough - very useful information.
+give suggestions. Say your what. If you feel shy, you can e-mail me or find me
+at vk.com with ease. The information provided here is more than enough - very
+useful information, isn't it?
