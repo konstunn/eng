@@ -1,6 +1,5 @@
 
-%\documentclass[a4paper,14pt]{extarticle}
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,14pt]{extarticle}
 
 \usepackage{cmap}
 
@@ -28,14 +27,14 @@
 		\MakeTextUppercase{federal state-funded educational institution of higher
 			education novosibirsk state technical university}
 		
-		\vspace{150pt}
+		\vspace{125pt}
 		
 		Foreign Languages Department of Engineering Faculties - 2 \\
 		\vspace{100pt}
-		\textbf{Summary} \\
+		\textbf{Summary on article} \\
 		\smallbreak
-		\MakeTextUppercase{an automatic editing algorithm for gps data}
-		\vspace{100pt}
+		Kalman Filtering in R
+		\vspace{75pt}
 	\end{center}
 
 	\begin{flushleft}
@@ -45,11 +44,11 @@
 	Faculty:          \> Applied Mathematics and Computer Science \\
 	Department:       \> Theoretical and Applied Computer Science \\
 	\\
-	Speciality:       \> Applied Mathematics and Computer Science \\
+	Major:            \> Applied Mathematics and Computer Science \\
 	\\
-	Research adviser: \> Assoc. Prof. O. S. Chernikova, Cand. Sc. (Eng.)
+	Research adviser: \> Assoc. Prof. O. S. Chernikova, Ph.D. (Eng.)
 	\\
-	Teacher of English: O. S. Atamanova
+	Teacher of English: \> O. S. Atamanova
 	\end{tabbing}
 	\end{flushleft}
 
@@ -62,17 +61,45 @@
 
 \newpage
 
-\begin{center}
-	\MakeTextUppercase{an automatic editing algorithm for gps data}
-\end{center}
-
-this is the text of the summary 
+TODO: add table of contents
 
 \newpage
 
-%\begin{center}
-%	\MakeTextUppercase{\textbf{glossary}}
-%\end{center}
+\begin{center}
+	Kalman Kiltering in R
+\end{center}
+
+\textit{Keywords:} state space models, Kalman filter, time series, R. \\
+
+In the article <<Kalman Filtering in R>> by Fernando Tussel, University of the
+Basque Country, Kalman filtering algorithms and implementations are described,
+discussed and overviewed, in particular, implementations in R programming
+language. \\
+
+On the one hand, Kalman filter is not very complex algorithm which can be
+implemented by hand rather quickly. But the more precise, stable and robust
+implementation one needs, the more effort one must take to implement the
+algorithm that would workaround different caveats. That is stated in the
+introduction to the article. \\
+
+The 2nd section formally describes the object model and Kalman filter
+equations as well as algorithm different additional features to workaround
+some caveats or provide some more advanced additional functionality. \\
+
+In the 3rd section particular R packages containing
+algorithms implementation based on Kalman filter are
+described and overviewed. \\
+
+The 4th section summarizes algorithms' particular features and provides their speed
+comparison, running them on different datasets built in R. \\
+
+The 5th section provides summary discussion on the algorithms \ldots \\
+
+\newpage
+
+\begin{center}
+	Glossary
+\end{center}
 
 \end{document}
 # vim: ts=2 sw=2
