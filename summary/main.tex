@@ -61,45 +61,120 @@
 
 \newpage
 
-TODO: add table of contents
-
-\newpage
-
 \begin{center}
 	Kalman Kiltering in R
 \end{center}
 
 \textit{Keywords:} state space models, Kalman filter, time series, R. \\
 
-In the article <<Kalman Filtering in R>> by Fernando Tussel, University of the
-Basque Country, Kalman filtering algorithms and implementations are described,
-discussed and overviewed, in particular, implementations in R programming
-language. \\
+In the article <<Kalman Filtering in R>> issued in the Journal of Statistical
+Software in March of 2011 written by Fernando Tussel, University of the
+Basque Country, Kalman filtering algorithms and their implementations are
+described, discussed and overviewed, in particular, implementations in R
+programming language. The algorithms can solve state and parameter estimation
+problem. \\
 
 On the one hand, Kalman filter is not very complex algorithm which can be
 implemented by hand rather quickly. But the more precise, stable and robust
 implementation one needs, the more effort one must take to implement the
-algorithm that would workaround different caveats. That is stated in the
+algorithm that would workaround some different caveats. That is stated in the
 introduction to the article. \\
 
-The 2nd section formally describes the object model and Kalman filter
-equations as well as algorithm different additional features to workaround
-some caveats or provide some more advanced additional functionality. \\
+The 2nd section formally describes general state-space object model and Kalman
+filter equations as well as algorithm's different additional features to
+workaround some caveats or provide some more advanced additional
+functionality. \\
+
+First, information filter implemetation of the Kalman filter
+can allow one to specify complete uncertainty about the initial value of a 
+component of the state vector, although this implementation in general
+requires more computational effort. Using covariance filter one must set 
+large covariance values to specify complete uncertainty, but this can lead
+to large rounding errors. Another way dealing with this caveat is using
+exact diffuse initialization, an option described below. \\
+
+One more caveat is numerical instability of the straightforward Kalman filter
+implementation that can be resolved by using "Joseph stabilized form" of the
+covariance update equation or using square root filter implementation. \\
+
+In the case when measurement matrix is diagonal ob block-diagonal
+sequential processing feature can be used to decrease computational efforts and
+maybe even increase numerical stability, especially in combination with square
+root filtering feature, but in this case the computational advantages seem
+unclear. \\
+
+Smoothing is the feature function to estimate the state given all past and
+future measurements. In some cases, and notable for the Bayesian analysis of
+the state space model, it is of interest to generate random samples of state
+and disturbance vectors, conditional on the observations. \\
+
+Exact diffuse initial conditions is the technique of specifying and dealing
+with the complete uncertainties of initial conditions described by Durbin,
+and Koopman, Grewal and Andrews. \\
+
+Maximum likelihood estimation of the state-space model is the algorithm to
+find unknown parameters present in the model in different matrices in different
+combinations. This is a working horse of systems identification. An alternative
+can be so called EM algorithm. \\
 
 In the 3rd section particular R packages containing
 algorithms implementation based on Kalman filter are
-described and overviewed. \\
+described and overviewed, including their programming interfaces.
+These packages are dse, sspir, dlm, FKF, KFAS, and
+some other briefly mentioned. \\
 
-The 4th section summarizes algorithms' particular features and provides their speed
-comparison, running them on different datasets built in R. \\
+The 4th section summarizes algorithms' particular features and provides their
+speed and accuracy comparison, running them different datasets such as Nile
+data, exchange rates data and a regression artificially generated data. \\
 
-The 5th section provides summary discussion on the algorithms \ldots \\
-
-\newpage
+The 5th section provides summary discussion on the overviewed algorithms
+overview.
 
 \begin{center}
-	Glossary
+	References
 \end{center}
+
+Anderson BDO, Moore JB (1979). Optimal Filtering. Prentice-Hall. \\
+
+Anderson E, Bai Z, Bischof C, Blackford S, Demmel J, Dongarra J, Croz JD, Greenbaum \\
+
+A, Hammarling S, McKenney A, Sorensen D (1999). LAPACK Users’ Guide. 3rd edition.
+SIAM. \\
+
+Bierman GJ (1977). Factorization Methods for Discrete Sequential Estimation.
+		Dover Publications. \\
+
+Bucy RS, Joseph PD (1968). Filtering for Stochastic Processes with Application to Guidance.
+Interscience, New York. \\
+
+Byrd RH, Lu P, Nocedal J, Zhu C (1995). “A Limited Memory Algorithm for Bound
+Constrained Optimization.” SIAM Journal on Scientific Computing, 16, 1190–1208.
+Cameletti M (2009). Stem: Spatio-Temporal Models in R. R package version 1.0, URL
+http://CRAN.R-project.org/package=Stem. \\
+
+Carter CK, Kohn R (1994). “On Gibbs Sampling for State Space Models.” Biometrika, 81(3),
+541–553. \\
+
+Chambers JM (2008). Software for Data Analysis: Programming with R. Springer-Verlag,
+New York. \\
+
+Chambers JM, Hastie TJ (1992). Statistical Models in S. Wadsworth \& Brooks/Cole, Pacific
+Grove. \\
+
+Cowpertwait PSP, Metcalfe AV (2009). Introductory Time Series with R. Springer-Verlag,
+New York. \\
+
+de Jong P (1995). “The Simulation Smoother for Time Series Models.” Biometrika, 82(2),
+339–350. \\
+
+Dethlefsen C, Lundbye-Christensen S (2006). “Formulating State Space Models in R with
+Focus on Longitudinal Regression Models.” Journal of Statistical Software, 16(1), 1–15.
+URL http://www.jstatsoft.org/v16/i01/. \\
+
+Dethlefsen C, Lundbye-Christensen S, Christensen AL (2009). sspir: State Space Models in
+R. R package version 0.2.8, URL http://CRAN.R-project.org/pa \\
+
+\newpage
 
 \end{document}
 # vim: ts=2 sw=2

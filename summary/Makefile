@@ -6,7 +6,7 @@ main.aux: main.tex
 	pdflatex $<
 
 view: main.pdf
-	xdg-open $< || explorer $< &
+	xdg-open $< &
 
 clean:
 	rm -f *.pdf
